@@ -43,6 +43,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 gem 'coffee-script-source', '1.8.0'  # QL: to fix the beginning bug
 
+gem 'paperclip', '~> 4.2'
+
 # Use sqlite3 as the database for Active Record
 group :development, :test do
 	gem 'sqlite3'
